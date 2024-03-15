@@ -85,6 +85,7 @@ def download_model(
         "model.bin",
         "tokenizer.json",
         "vocabulary.*",
+        "pytorch_model.bin"
     ]
 
     kwargs = {
