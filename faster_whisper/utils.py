@@ -82,9 +82,9 @@ def download_model(
     allow_patterns = [
         "config.json",
         "preprocessor_config.json",
-        "token_config.json",
-        "vocab.json",
-        "pytorch_model.bin"
+        "model.bin",
+        "tokenizer.json",
+        "vocabulary.*",
     ]
 
     kwargs = {
